@@ -8,17 +8,17 @@ Authors : Ramnarayan Patro, Subhashree Subudhi,
 	  Dr. Fabio Dell'Acqua (University of Pavia, Italy)
 	  Dr. Harish Kumar Sahoo (VSSUT, Burla, India)
 
-For the purpose of classification of binary dataset.
+For the purpose of classification.
 
 Eight dataset are already given as an example
-1. Clean1
-2. eigththr
-3. glass
-4. Hvelywonoise
-5. Parkinsons
-6. Sonar
-7. ionoshpere
-8. BCancerO
+1. data_mfeat
+2. segment
+3. vowel_context
+4. wine
+5. opt_digits
+6. steel_plate_fault
+7. pen_digits
+8. data_libras
 
 All these dataset are downloaded from from UCI Machine learning repository 
 and converted to matlab (.mat) format.
@@ -37,8 +37,7 @@ Seven classifiers are incorporated along with our proposed Conditional Classifie
 4. SVM-rbf
 5. NN
 6. DTree
-7. Naivebayes
-8. RForest
+7. RForest
 
 CC classifier is implemented with three functions : 
 "binary_cond" for training,
